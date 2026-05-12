@@ -52,12 +52,13 @@ easm-tool/
 ### 1. Clone The Repository
 
 ```
-git clone https://github.com/yourusername/easm-tool.git
-cd easm-tool
+git clone https://github.com/IrondiUg/External_Attack_Surface_Management.git
+cd External_Attack_Surface_Management
 ```
 
-2. Install Go
-```wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
+2. Install Go on WSL
+```
+wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.22.3.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> ~/.bashrc
 source ~/.bashrc
@@ -201,9 +202,9 @@ example-staging   No      No       MEDIUM    0 file(s)
 ---
 
 **References**
-Subfinder — https://github.com/projectdiscovery/subfinder
-Nuclei — https://github.com/projectdiscovery/nuclei
-dnspython — https://www.dnspython.org
-requests — https://docs.python-requests.org
-python-dotenv — https://pypi.org/project/python-dotenv
-AWS S3 Documentation — https://docs.aws.amazon.com/s3
+- Subfinder — https://github.com/projectdiscovery/subfinder
+- Nuclei — https://github.com/projectdiscovery/nuclei
+- dnspython — https://www.dnspython.org
+- requests — https://docs.python-requests.org
+- python-dotenv — https://pypi.org/project/python-dotenv
+- AWS S3 Documentation — https://docs.aws.amazon.com/s3
