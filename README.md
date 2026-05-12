@@ -2,10 +2,7 @@
 
 > A Python-based External Attack Surface Management tool that discovers and assesses an organisation's external digital footprint in real time using open-source security scanners.
 
----
-
 ## Table of Contents
-```
 - [Overview](#overview)
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -20,11 +17,9 @@
 - [Legal Notice](#legal-notice)
 - [Author](#author)
 - [References](#references)
-```
----
+
 
 ## Overview
-
 This tool was developed as part of a cybersecurity project focused on external attack surface visibility. It enumerates subdomains, resolves DNS records, fingerprints HTTP services, detects exposed Amazon S3 buckets, and performs automated vulnerability assessments using the Nuclei scanner. All findings are displayed incrementally in real time via terminal output with no database or persistent storage layer required.
 
 ---
