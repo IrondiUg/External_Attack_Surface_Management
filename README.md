@@ -97,9 +97,9 @@ COMPANY_NAME=yourcompany
 source venv/bin/activate
 python main.py
 ```
----
+
+### Example Output
 ```
-Example Output
 =======================================================
   EASM Scan — example.com
 =======================================================
