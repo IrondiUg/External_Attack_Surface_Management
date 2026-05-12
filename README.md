@@ -81,16 +81,17 @@ source venv/bin/activate
 pip install requests dnspython python-dotenv
 ```
 
-**Configuration**
-
+### Configuration
 Create a .env file in the project root directory:
+```
 TARGET_DOMAIN=yourdomain.com
 COMPANY_NAME=yourcompany
+```
 
-TARGET_DOMAIN - Root domain of the target organisation
-COMPANY_NAME - Organisation name used for S3 permutation generation
+- `TARGET_DOMAIN` - Root domain of the target organisation
+- `COMPANY_NAME` - Organisation name used for S3 permutation generation
 
-Run The Tool
+### Run The Tool
 ```
 source venv/bin/activate
 python main.py
