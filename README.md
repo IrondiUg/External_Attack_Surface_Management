@@ -15,18 +15,50 @@ A single forgotten subdomain, exposed S3 bucket, abandoned staging server, leake
 This project was developed to `aggressively` identify those exposures before threat actors do.
 
 ---
+### Strategic Security Objectives
+The project was engineered to help organisations:
+- Detect unknown and unmanaged internet-facing infrastructure
+- Reduce external attack surface exposure
+- Identify high-risk cloud misconfigurations
+- Discover vulnerable externally reachable services
+- Expose shadow IT before it becomes an attack vector
+- Improve security visibility across distributed infrastructure
+- Accelerate remediation prioritisation
+- Strengthen proactive cyber defence operations
+- Reduce operational blind spots within external infrastructure
+- Minimise the likelihood of externally initiated compromise
 
-## Features
 
-- **Subdomain Enumeration** — Passive discovery using Subfinder across multiple intelligence sources
-- **DNS Resolution** — Validates discovered assets through A record and CNAME resolution
-- **HTTP Fingerprinting** — Probes live services for status codes, page titles, and technology stacks
-- **S3 Bucket Scanning** — Permutation-based detection of exposed Amazon S3 buckets
-- **Vulnerability Assessment** — Automated scanning using Nuclei community templates
-- **Shadow IT Detection** — Flags unknown assets not present in the approved asset baseline
-- **Priority Scanning Queue** — Scans LIVE assets first, UNKNOWN second, DEAD last
-- **Real-Time Output** — All findings printed line by line as scanning progresses
+### Core Operational Capabilities
+**External Asset Discovery**
+- Continuously identifies publicly exposed organisational infrastructure through passive reconnaissance across multiple intelligence sources.
 
+**DNS Intelligence Validation**
+- Determines whether discovered assets are operational, abandoned, inactive, or externally reachable.
+HTTP Service Fingerprinting
+- Profiles exposed services, technologies, frameworks, web servers, SSL behaviour, redirects, and application stacks to identify potentially vulnerable technologies and externally exposed platforms.
+
+**Cloud Exposure Detection**
+- Detects publicly exposed Amazon S3 buckets, sensitive file leakage, bucket misconfigurations, and potential unauthenticated write access capable of enabling:
+  - malicious file hosting,
+  - phishing deployment,
+  - malware distribution,
+  - or data tampering.
+
+**Automated Vulnerability Assessment**
+- Executes high-speed vulnerability discovery using Nuclei community templates targeting:
+known CVEs,
+- cloud exposure weaknesses,
+- subdomain takeover conditions,
+- default credentials,
+- web application flaws,
+- and infrastructure misconfigurations.
+
+**Shadow IT Detection**
+- Identifies infrastructure operating outside approved organisational visibility and governance controls.
+
+**Real-Time Exposure Visibility**
+- Streams security findings incrementally during execution to provide immediate operational awareness and accelerate security response workflows.
 ---
 
 **Project Structure**
