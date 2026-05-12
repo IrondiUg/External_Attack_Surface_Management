@@ -37,7 +37,7 @@ This tool was developed as part of a cybersecurity project focused on external a
 
 ---
 
-## Project Structure
+**Project Structure**
 ```
 easm-tool/
 ├── main.py                 # Central orchestrator
@@ -53,20 +53,11 @@ easm-tool/
 ```
 ---
 
-## Requirements
-
-### System Requirements
-
-| Requirement | Version |
-|---|---|
-| Operating System | WSL Ubuntu 22.04 / Linux / macOS |
-| Python | 3.8 or higher |
-| Go | 1.22 or higher |
-
 ### Python Dependencies
-requests
-dnspython
-python-dotenv
+`requests`
+`dnspython`
+`python-dotenv`
+
 ### External Security Tools
 
 | Tool | Purpose | Source |
@@ -74,7 +65,6 @@ python-dotenv
 | Subfinder | Subdomain enumeration | [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) |
 | Nuclei | Vulnerability scanning | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) |
 
----
 
 ## Installation
 
@@ -94,14 +84,22 @@ go version
 ```
 
 3. Install Subfinder and Nuclei
+```
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 nuclei -update-templates
+```
+
 4. Create Python Virtual Environment
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 5. Install Python Dependencies
+```
 pip install requests dnspython python-dotenv
+```
+
 Configuration
 Create a .env file in the project root directory:
 TARGET_DOMAIN=yourdomain.com
@@ -114,12 +112,13 @@ Root domain of the target organisation
 example.com
 COMPANY_NAME
 Organisation name used for S3 permutation generation
-example
-⚠️ Warning: Never commit your .env file to version control. It is listed in .gitignore by default.
-Usage
+
 Run The Tool
+```
 source venv/bin/activate
 python main.py
+```
+
 Example Output
 =======================================================
   EASM Scan — example.com
