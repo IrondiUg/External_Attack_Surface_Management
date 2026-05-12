@@ -1,23 +1,5 @@
 ## External Attack Surface Management (EASM) Tool
-
 > A Python-based External Attack Surface Management tool that discovers and assesses an organisation's external digital footprint in real time using open-source security scanners.
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Shadow IT Detection](#shadow-it-detection)
-- [Limitations](#limitations)
-- [Future Development](#future-development)
-- [Legal Notice](#legal-notice)
-- [Author](#author)
-- [References](#references)
-
 
 ## Overview
 This tool was developed as part of a cybersecurity project focused on external attack surface visibility. It enumerates subdomains, resolves DNS records, fingerprints HTTP services, detects exposed Amazon S3 buckets, and performs automated vulnerability assessments using the Nuclei scanner. All findings are displayed incrementally in real time via terminal output with no database or persistent storage layer required.
@@ -54,12 +36,11 @@ easm-tool/
 ---
 
 ### Python Dependencies
-`requests`
-`dnspython`
-`python-dotenv`
+- `requests`
+- `dnspython`
+- `python-dotenv`
 
 ### External Security Tools
-
 | Tool | Purpose | Source |
 |---|---|---|
 | Subfinder | Subdomain enumeration | [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) |
