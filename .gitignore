@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Nuclei temporary files
+nuclei_targets_*.txt
+nuclei_targets_*_out.json
+
+# Logs and output
+*.log
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
