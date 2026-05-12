@@ -234,12 +234,12 @@ example-staging   No      No       MEDIUM    0 file(s)
 =======================================================
 ```
 
-**Legal Notice**
-⚠️ Important: This tool is intended strictly for use against systems and domains you own or have explicit written permission to test. Unauthorised scanning of systems you do not own may be illegal under applicable laws including the Computer Misuse Act and the Computer Fraud and Abuse Act. The author accepts no responsibility for any misuse of this tool.
+## Legal Notice
+⚠️ **Important: This tool is intended strictly for use against systems and domains you own or have explicit written permission to test. Unauthorised scanning of systems you do not own may be illegal under applicable laws including the Computer Misuse Act and the Computer Fraud and Abuse Act. The author accepts no responsibility for any misuse of this tool.**
 
 ---
 
-**Author: Irondi Ugochukwu**
+## Author: Irondi Ugochukwu G
 
 ---
 
