@@ -114,7 +114,8 @@ Run The Tool
 source venv/bin/activate
 python main.py
 ```
-
+---
+```
 Example Output
 =======================================================
   EASM Scan — example.com
@@ -206,6 +207,9 @@ example-staging   No      No       MEDIUM    0 file(s)
     - High:         1
     - Medium:       0
 =======================================================
+```
+
+
 How It Works
 Phase 1 — Asset Discovery
 Phase 1a: Subdomain Enumeration
