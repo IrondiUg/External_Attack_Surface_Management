@@ -1,4 +1,4 @@
-# External Attack Surface Management (EASM) Tool
+## External Attack Surface Management (EASM) Tool
 
 > A Python-based External Attack Surface Management tool that discovers and assesses an organisation's external digital footprint in real time using open-source security scanners.
 
