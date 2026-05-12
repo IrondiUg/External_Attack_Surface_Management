@@ -5,6 +5,7 @@
 ---
 
 ## Table of Contents
+```
 - [Overview](#overview)
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -19,7 +20,7 @@
 - [Legal Notice](#legal-notice)
 - [Author](#author)
 - [References](#references)
-
+```
 ---
 
 ## Overview
@@ -42,6 +43,7 @@ This tool was developed as part of a cybersecurity project focused on external a
 ---
 
 ## Project Structure
+```
 easm-tool/
 ├── main.py                 # Central orchestrator
 ├── settings.py             # Configuration management
@@ -53,6 +55,7 @@ easm-tool/
 ├── .env                    # Environment variables (not committed)
 ├── .gitignore              # Git ignore rules
 └── README.md               # Project documentation
+```
 ---
 
 ## Requirements
