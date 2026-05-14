@@ -241,9 +241,7 @@ example-staging   No      No       MEDIUM    0 file(s)
 
 ## Author: Irondi Ugochukwu G
 
----
-
-**References**
+### **References**
 - Subfinder — https://github.com/projectdiscovery/subfinder
 - Nuclei — https://github.com/projectdiscovery/nuclei
 - dnspython — https://www.dnspython.org
